@@ -1,19 +1,17 @@
 # GPY_EXAMPLES
 
 My attempt at using GPy to scale Gaussian Processes to large datasets.
-###
+
 Check out the paper that talks about how it works [here](http://jmlr.org/proceedings/papers/v38/hensman15.pdf)
+
 [Here](http://www.auai.org/uai2013/prints/papers/244.pdf)'s another good reference
 
+## What's Here?
 
-## what's here:
-
-###EX1:
-Simple GPy Example #1:
+### EX1:
 Test GP techniques on the XOR dataset.
 
-###EX2:
-Simple GPy Example #2:
+### EX2:
 Uses the XOR dataset, as before, using the entire dataset.
 
 This runs through the parameters defined in 'parameters', saves their AUC-ROC
@@ -22,8 +20,7 @@ plots for those parameters.
 
 Each score is printed as it is solved for.
 
-###EX3:
-Simple GPy Example #3:
+### EX3:
 This GP uses a giant XOR dataset to test mini-batching and Stochastic GP
 techniques.
 
@@ -32,8 +29,7 @@ Can choose rbf or linear/matern32 kernel.
 
 -no clustering to initialize Z in this example
 
-###EX4:
-Simple GPy Example #4:
+### EX4:
 Uses Stochastic mini-batching techniques from before for a large air
 quality dataset (134 features predicting 2 classes, x 55,000 points).
 
@@ -42,8 +38,7 @@ Can choose rbf or linear/matern32 kernel.
 
 This example has k-means clustering to initialize the inducing points.
 
-###EX5:
-Simple GPy Example #5:
+### EX5:
 Highly Parallelized search over parameters using Stochastic mini-batching
 techniques from before for a large air quality dataset (134 features
 predicting 2 classes, x 55,000 points).
